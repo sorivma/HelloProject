@@ -16,5 +16,5 @@ fun main(args: Array<String>) {
 @RestController
 class HelloController {
     @GetMapping("/hello")
-    fun hello() = "Hello World"
+    fun hello() = "Hello World + Test hook"
 }
